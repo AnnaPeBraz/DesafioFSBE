@@ -15,4 +15,7 @@ public class EmpresaFornecedor2 {
     }
 }
 
-/*testando*/
+/*o que precisa ser criado:
+empresa
+fornecedor
+*/
