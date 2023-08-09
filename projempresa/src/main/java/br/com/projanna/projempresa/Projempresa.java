@@ -3,17 +3,17 @@
  */
 
 package br.com.projanna.projempresa;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  *
  * @author ninha
  */
 public class Projempresa {
-
+    
+    @SpringBootApplication
     public static void main(String[] args) {
-        Empresa falatu = new Empresa(1, "123456", "falatu", 123456);
-        
-        System.out.println("Hello World!");
-        System.out.println(falatu.getId());
+        SpringApplication.run(Projempresa.class, args);
     }
 }
